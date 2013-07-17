@@ -1,0 +1,44 @@
+﻿Build started 7/17/2013 12:56:07 PM.
+     1>Project "C:\Users\thomaslx\src\cpu-vision\objectTrackingTutorial\objectTrackingTutorial\objectTrackingTutorial.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\objectTrackingTutorial.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv246\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt objectTrackingTut.cpp
+         objectTrackingTut.cpp
+     1>c:\opencv246\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\thomaslx\src\cpu-vision\objecttrackingtutorial\objecttrackingtutorial\objecttrackingtut.cpp(38): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>c:\users\thomaslx\src\cpu-vision\objecttrackingtutorial\objecttrackingtutorial\objecttrackingtut.cpp(68): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\thomaslx\src\cpu-vision\objecttrackingtutorial\objecttrackingtutorial\objecttrackingtut.cpp(69): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\thomaslx\src\cpu-vision\objecttrackingtutorial\objecttrackingtutorial\objecttrackingtut.cpp(70): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\thomaslx\src\cpu-vision\objecttrackingtutorial\objecttrackingtutorial\objecttrackingtut.cpp(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\thomaslx\src\cpu-vision\objecttrackingtutorial\objecttrackingtutorial\objecttrackingtut.cpp(72): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\thomaslx\src\cpu-vision\objecttrackingtutorial\objecttrackingtutorial\objecttrackingtut.cpp(73): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\thomaslx\src\cpu-vision\objecttrackingtutorial\objecttrackingtutorial\objecttrackingtut.cpp(159): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\thomaslx\src\cpu-vision\objecttrackingtutorial\objecttrackingtutorial\objecttrackingtut.cpp(160): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\objectTrackingTutorial.exe.embed.manifest.res" Debug\objectTrackingTutorial_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\thomaslx\src\cpu-vision\objectTrackingTutorial\Debug\objectTrackingTutorial.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv246\build\x86\vc10\lib opencv_core246d.lib opencv_imgproc246d.lib opencv_highgui246d.lib opencv_ml246d.lib opencv_video246d.lib opencv_features2d246d.lib opencv_calib3d246d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\objectTrackingTutorial.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\thomaslx\src\cpu-vision\objectTrackingTutorial\Debug\objectTrackingTutorial.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\thomaslx\src\cpu-vision\objectTrackingTutorial\Debug\objectTrackingTutorial.lib" /MACHINE:X86 Debug\objectTrackingTutorial.exe.embed.manifest.res
+         Debug\objectTrackingTut.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\objectTrackingTutorial.exe.embed.manifest" /manifest Debug\objectTrackingTutorial.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\objectTrackingTutorial.exe.embed.manifest.res" Debug\objectTrackingTutorial_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\thomaslx\src\cpu-vision\objectTrackingTutorial\Debug\objectTrackingTutorial.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv246\build\x86\vc10\lib opencv_core246d.lib opencv_imgproc246d.lib opencv_highgui246d.lib opencv_ml246d.lib opencv_video246d.lib opencv_features2d246d.lib opencv_calib3d246d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\objectTrackingTutorial.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\thomaslx\src\cpu-vision\objectTrackingTutorial\Debug\objectTrackingTutorial.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\thomaslx\src\cpu-vision\objectTrackingTutorial\Debug\objectTrackingTutorial.lib" /MACHINE:X86 Debug\objectTrackingTutorial.exe.embed.manifest.res
+         Debug\objectTrackingTut.obj
+         objectTrackingTutorial.vcxproj -> C:\Users\thomaslx\src\cpu-vision\objectTrackingTutorial\Debug\objectTrackingTutorial.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\objectTrackingTutorial.unsuccessfulbuild".
+         Touching "Debug\objectTrackingTutorial.lastbuildstate".
+     1>Done Building Project "C:\Users\thomaslx\src\cpu-vision\objectTrackingTutorial\objectTrackingTutorial\objectTrackingTutorial.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.78
